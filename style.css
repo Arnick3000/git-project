@@ -4,15 +4,18 @@
   box-sizing: border-box;
 }
 body{
-  background-color: gray;
+  background-color: rgb(248, 244, 0);
 }
-header , footer{
+header , footer ,main{
   font-size: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: aqua;
-  height: 250px;
+  height: 33.33vh;
+}
+main{
+  background-color: aliceblue;
 }
 footer{
   background-color: black;
@@ -20,8 +23,8 @@ footer{
 }
 button{
   box-sizing: border-box;
-width: 150px;
-height: 60px;
+width: 6.5em;
+height: 2.5em;
   padding: 15px;
   font-size: 1.3em;
   color: red;
