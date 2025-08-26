@@ -1,6 +1,15 @@
 body{
   background-color: gray;
 }
+header{
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  height: 250px;
+    
+}
 button{
   box-sizing: border-box;
 width: 150px;
