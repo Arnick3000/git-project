@@ -1,14 +1,17 @@
 body{
   background-color: gray;
 }
-header{
+header , footer{
   font-size: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: aqua;
   height: 250px;
-    
+}
+footer{
+  background-color: black;
+  color: white;
 }
 button{
   box-sizing: border-box;
